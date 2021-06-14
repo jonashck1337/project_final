@@ -148,8 +148,10 @@
             <button on:click={signOut} class="border bg-gray-500 border-gray-600 text-white px-3 py-2 rounded w-full text-center transition duration-150 shadow-lg">Sign Out</button>
         </div>
     {/if}
+    <iframe class="px-32 pt-40" width="1600" height="900" src="https://datastudio.google.com/embed/reporting/6e6970ff-c775-4267-829d-55fa5eb36cb5/page/OxEPC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-<iframe class="px-32" width="100%" height="500" src="https://datastudio.google.com/embed/reporting/2f6df626-8e33-42b2-8750-4414eda3d46d/page/3jgOC"  frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
 
 {#if isModalOpened}
 	<Modal {toggleModal}>
