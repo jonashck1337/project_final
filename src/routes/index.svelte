@@ -20,7 +20,7 @@
     </div>
 <!-- <img src="/static/undraw_access_denied_re_awnf.svg" alt="" /> -->
 <!-- App logo and tagline -->
-<div class="w-full text-center mb-4 flex flex-col place-items-center">
+<div class="w-full pt-32 pb-32 text-center mb-4 flex flex-col place-items-center">
     {#if user?.guest}
         <a class="bg-gray-500 border border-gray-600 text-white px-4 py-2 rounded shadow" href="/auth" title="Sign Up or Sign In">Get Started</a>
     {:else}
